@@ -94,6 +94,7 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
+which means
 $$\begin{aligned}
 \frac{\partial C}{\partial \mathrm{W}^2} 
 &= \begin{bmatrix}
@@ -135,6 +136,8 @@ w_{1k}^2 & w_{2k}^2
 \end{aligned}
 $$
 
+which means
+
 $$\begin{aligned}
 \frac{\partial C}{\partial \vec{\mathrm{z}}^1} &= \left( 1 - \mathrm{tanh}^2(\vec{\mathrm{z}}^1) \right) \left( \mathrm{W^{2}}^{\top} \frac{\partial C}{\partial \vec{\mathrm{z}}^2}\right)
 \end{aligned}
@@ -148,6 +151,7 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
+which means
 $$\begin{aligned}
 \frac{\partial C}{\partial \mathrm{W}^1}
 &= \begin{bmatrix}
