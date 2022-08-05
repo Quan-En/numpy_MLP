@@ -84,6 +84,7 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
+which means
 $$\frac{\partial C}{\partial \vec{\mathrm{z}}^2}=\vec{\hat{\mathrm{y}}}-\vec{\mathrm{y}}$$
 
 ### 2
