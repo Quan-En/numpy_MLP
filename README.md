@@ -95,6 +95,7 @@ $$\begin{aligned}
 $$
 
 which means
+
 $$\begin{aligned}
 \frac{\partial C}{\partial \mathrm{W}^2} 
 &= \begin{bmatrix}
@@ -152,6 +153,7 @@ $$\begin{aligned}
 $$
 
 which means
+
 $$\begin{aligned}
 \frac{\partial C}{\partial \mathrm{W}^1}
 &= \begin{bmatrix}
