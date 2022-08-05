@@ -15,7 +15,7 @@ Reference:
 
 <p align="center">
 <br >
-<img src="model_strc.png" width=250>
+<img src="model_strc.png" width=350>
 </p>
 
 ## Forward
