@@ -20,6 +20,7 @@ Reference:
 
 ## Forward
 
+<!--
 <p align="center">
 <img src="https://latex.codecogs.com/gif.latex?%5Cmathrm%7BW%7D%5E1%2C%5Cmathrm%7BW%7D%5E2%3A%20%5Cmathrm%7Bmodel%20%5C%2C%5C%2C%20weights%7D">
 <br >
@@ -29,8 +30,7 @@ Reference:
 <br >
 <img src="https://latex.codecogs.com/gif.latex?%5Cvec%7B%5Cmathrm%7Bz%7D%7D%5E%7B2%7D%20%3D%20%5Cmathrm%7BW%7D%5E%7B2%7D%20%5Cvec%7B%5Cmathrm%7Ba%7D%7D%5E%7B1%7D">
 </p>
-
-<!--
+-->
 
 $$\mathrm{W}^1,\mathrm{W}^2: \mathrm{model \,\, weights}$$
 
@@ -42,29 +42,29 @@ $$\vec{\mathrm{z}}^{2} = \mathrm{W}^{2} \vec{\mathrm{a}}^{1}$$
 
 $$\vec{\hat{\mathrm{y}}} = \mathrm{softmax}(\vec{\mathrm{z}}^{2})$$
 
--->
-
 where
+
+<!--
 <p align="center">
 <img src="https://latex.codecogs.com/gif.latex?%5Cmathrm%7Btanh%7D%28x%29%3D%5Cfrac%7B%5Cexp%282x%29-1%7D%7B%5Cexp%282x%29&plus;1%7D">
 <br >
 <img src="https://latex.codecogs.com/gif.latex?%5Chat%7By%7D_k%3D%5Cfrac%7B%5Cexp%28z_k%5E2%29%7D%7B%5Csum_%7Bj%7D%7B%5Cexp%28z_j%5E2%29%7D%7D%2C%20%5C%2C%5C%2C%20k%3D1%2C2">
 </p>
+-->
 
-<!--
 $$\mathrm{tanh}(x)=\frac{\exp(2x)-1}{\exp(2x)+1}$$
 
 $$\hat{y}_k=\frac{\exp(z_k^2)}{\sum_{j}{\exp(z_j^2)}}, \,\, k=1,2$$
--->
 
 In addition
+
+<!--
 <p align="center">
 <img src="https://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5C%2C%5Cmathrm%7Btanh%7D%28x%29%7D%7Bdx%7D%3D1-%5Cmathrm%7Btanh%7D%5E2%28x%29">
 </p>
-
-<!--
-$$\frac{d\,\mathrm{tanh}(x)}{dx}=1-\mathrm{tanh}^2(x)$$
 -->
+
+$$\frac{d\,\mathrm{tanh}(x)}{dx}=1-\mathrm{tanh}^2(x)$$
 
 ## Back propagation
 
