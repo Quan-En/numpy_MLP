@@ -54,7 +54,7 @@ where
 
 $$\mathrm{tanh}(x)=\frac{\exp(2x)-1}{\exp(2x)+1}$$
 
-$$\hat{y}_k=\frac{\exp(z_k^2)}{\sum_{j}{\exp(z_j^2)}}, \,\, k=1,2$$
+$$\hat{y}_k=\frac{\exp(z_k^2)}{\sum_{j}{\exp(z_j^2)}}, k=1,2$$
 
 In addition
 
