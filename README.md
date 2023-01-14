@@ -32,7 +32,7 @@ Reference:
 </p>
 -->
 
-$$\mathrm{W}^1,\mathrm{W}^2: \mathrm{model \,\, weights}$$
+$$\mathrm{W}^1,\mathrm{W}^2: \text{model  weights}$$
 
 $$\vec{\mathrm{z}}^{1} = \mathrm{W}^{1} \vec{\mathrm{x}}$$
 
@@ -40,7 +40,7 @@ $$\vec{\mathrm{a}}^{1} = \mathrm{tanh}(\vec{\mathrm{z}}^{1})$$
 
 $$\vec{\mathrm{z}}^{2} = \mathrm{W}^{2} \vec{\mathrm{a}}^{1}$$
 
-$$\vec{\hat{\mathrm{y}}} = \mathrm{softmax}(\vec{\mathrm{z}}^{2})$$
+$$\vec{\hat{\mathrm{y}}} = \text{softmax}(\vec{\mathrm{z}}^{2})$$
 
 where
 
@@ -64,14 +64,14 @@ In addition
 </p>
 -->
 
-$$\frac{d\,\mathrm{tanh}(x)}{dx}=1-\mathrm{tanh}^2(x)$$
+$$\frac{d\text{ tanh}(x)}{dx}=1-\mathrm{tanh}^2(x)$$
 
 ## Back propagation
 
 Cost function (cross entropy):
 $$C(\Theta)=-\sum_{i}{y_i \log(\hat{y}_{i})}$$
 
-$$\Theta:\mathrm{model \,\, parameters}$$
+$$\Theta:\text{model parameters}$$
 
 $$C(\Theta)=-\sum_{i}{y_i \log(\frac{\exp(z_i^2)}{\sum_{j}{\exp(z_j^2)}})}$$
 
@@ -120,7 +120,7 @@ $$
 ### 3
 
 $$\begin{aligned}
-\frac{\partial a^1_k}{\partial z^1_k} &= \frac{\partial \, \mathrm{tanh}(z^1_k)}{\partial z^1_k} \\
+\frac{\partial a^1_k}{\partial z^1_k} &= \frac{\partial \text{ tanh}(z^1_k)}{\partial z^1_k} \\
 &= 1 - \mathrm{tanh}^2(z^1_k)
 \end{aligned}
 $$
